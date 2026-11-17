@@ -24,7 +24,7 @@ const revenue = ordersPerDay * averageOrder;
  console.log(dailyProfit(100));
 
  if (profit >= 3000) {
- console.log("Great day");
+  console.log("Great day");
  } else if (profit >= 0) {
  console.log("Normal day");
  } else {
@@ -40,3 +40,4 @@ const revenue = ordersPerDay * averageOrder;
  ordersPerDay = ordersPerDay + 3;
  }
  console.log(`Week profit: EGP ${weekProfit}`);
+
